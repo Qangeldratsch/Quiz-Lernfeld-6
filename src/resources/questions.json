@@ -1,0 +1,109 @@
+{
+"questions":[
+    {
+        "question":"Welche Phase des ITIL Lebenszyklusses beinhaltet die Planung von Verfügbarkeiten?",
+        "answers": [
+            {
+                "answer":"Continual Service Improvement",
+                "value":false
+            },
+            {
+                "answer":"Operation",
+                "value":false
+            },
+            {
+                "answer":"Transition",
+                "value":false
+            },
+            {
+                "answer":"Design",
+                "value":true
+            }
+        ]
+    },
+    {
+        "question":"Welche ISO Norm behandelt Vorgaben im Bezug auf die Prozessbewertung?",
+        "answers": [
+            {
+                "answer":"ISO/ICE 27000",
+                "value":false
+            },
+            {
+                "answer":"ISO 15504",
+                "value":true
+            },
+            {
+                "answer":"ISO/ICE 20000",
+                "value":false
+            },
+            {
+                "answer":"ISO 9000",
+                "value":false
+            }
+        ]
+    },
+    {
+        "question":"Welcher Framework hat den Fokues auf IT- Unternehmensmanagement und IT- Governance?",
+        "answers": [
+            {
+                "answer":"ITIL",
+                "value":false
+            },
+            {
+                "answer":"COBIT",
+                "value":true
+            },
+            {
+                "answer":"FitSM",
+                "value":false
+            },
+            {
+                "answer":"SIAM",
+                "value":false
+            }
+        ]
+    },
+    {
+        "question":"Welches ist das weltweit meist berücksichtigte Framework im Bezug auf IT- Service?",
+        "answers": [
+            {
+                "answer":"ITIL",
+                "value":true
+            },
+            {
+                "answer":"COBIT",
+                "value":false
+            },
+            {
+                "answer":"FitSM",
+                "value":false
+            },
+            {
+                "answer":"SIAM",
+                "value":false
+            }
+        ]
+    },
+    {
+        "question":"Wie viele Managementpraktiken bietet der ITIL Framework?",
+        "answers": [
+            {
+                "answer":"17",
+                "value":false
+            },
+            {
+                "answer":"14",
+                "value":false
+            },
+            {
+                "answer":"34",
+                "value":true
+            },
+            {
+                "answer":"28",
+                "value":false
+            }
+        ]
+    }
+]
+}
