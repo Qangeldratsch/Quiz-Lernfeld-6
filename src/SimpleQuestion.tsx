@@ -59,7 +59,7 @@ export const SimpleQuestion = (props:any) => {
                             id={index.toString()}
                             className="answer--input"
                             value="id"
-                            type="radio"
+                            type="checkbox"
                             checked={checked[index]}
                             onChange={() => handleOnChange(index)}
                         />
@@ -78,23 +78,23 @@ export const SimpleQuestion = (props:any) => {
                 >
                     {answers}
                 </div>
-                <button
-                    onClick={() => checkAnswers()}
-                >
-                    Antworten überprüfen
-                </button>
-                <button
-                    onClick={
+            </div>
+
+            <button
+                onClick={() => checkAnswers()}
+            >
+                Antworten überprüfen
+            </button>
+            <button
+                onClick={
                     () => {
                         props.setCurrentQuestion(((prevState: number) => prevState + 1));
                         resetStates();
                     }
                 }
-                >
-                    Nächste Frage
-                </button>
-
-            </div>
+            >
+                Nächste Frage
+            </button>
         </div>
     );
 }

@@ -1,22 +1,37 @@
 import { SimpleQuestion } from './SimpleQuestion';
-import questions from './resources/questions.json';
+import { TextInputQuestion } from "./TextInputQuestion";
+import simpleQuestions from './resources/simpleQuestions.json';
+import textInputQuestions from './resources/textInputQuestions.json';
 import './quiz.css'
-import {useState} from "react";
+import { useState } from "react";
 
 export const Quiz = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState(0);
 
-    let questions_objects = new Array;
-    if (questions.questions instanceof Array) {
-        questions.questions.map((question: any) =>
-                questions_objects.push(
-                    <SimpleQuestion
-                        question={question.question}
-                        answers={question.answers}
-                        setCurrentQuestion={setCurrentQuestion}
-                    />
-                )
+    let allQuestions = new Array;
+
+    if (textInputQuestions.textInputQuestions instanceof Array) {
+        textInputQuestions.textInputQuestions.map((question: any) =>
+            allQuestions.push(
+                <TextInputQuestion
+                    question={question.question}
+                    answer={question.answer}
+                    setCurrentQuestion={setCurrentQuestion}
+                />
+            )
+        );
+    }
+
+    if (simpleQuestions.simpleQuestions instanceof Array) {
+        simpleQuestions.simpleQuestions.map((question: any) =>
+            allQuestions.push(
+                <SimpleQuestion
+                    question={question.question}
+                    answers={question.answers}
+                    setCurrentQuestion={setCurrentQuestion}
+                />
+            )
         );
     }
 
@@ -25,7 +40,7 @@ export const Quiz = () => {
         <div className="quiz">
             <h1>Quiz Lernfeld 6.1</h1>
             <div className="questions">
-                {questions_objects[currentQuestion]}
+                {allQuestions[currentQuestion]}
             </div>
         </div>
     );

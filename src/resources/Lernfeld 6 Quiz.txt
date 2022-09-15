@@ -1,0 +1,91 @@
+
+q macro
+/|€kb{â€º€kb€kb^{\nddd2f"A€kb€kbjkjdd/    ]ddddOjk@q
+a macro
+/    {\nddd2f"A€kb€kbjkjBdf:jddk@a
+
+
+Welche Phase des ITIL Lebenszyklusses beinhaltet die Planung von VerfÃ¼gbarkeiten?
+    Continual Service Improvement
+    false
+    Operation
+    false
+    Transition
+    false
+    Design
+    true
+
+Welche ISO Norm behandelt Vorgaben im Bezug auf die Prozessbewertung?
+    ISO/ICE 27000
+    false
+    ISO 15504
+    true
+    ISO/ICE 20000
+    false
+    ISO 9000
+    false
+
+Welcher Framework hat den Fokues auf IT- Unternehmensmanagement und IT- Governance?
+    ITIL
+    false
+    COBIT
+    true
+    FitSM
+    false
+    SIAM
+    false
+
+Welches ist das weltweit meist berÃ¼cksichtigte Framework im Bezug auf IT- Service?
+    ITIL
+    true
+    COBIT
+    false
+    FitSM
+    false
+    SIAM
+    false
+
+Wie viele Managementpraktiken bietet der ITIL Framework?
+    17
+    false
+    14
+    false
+    34
+    true
+    28
+    false
+
+Wie ist der Service-Lebenszyklus ausgerichtet?
+    Design, Operation, Publikation
+    false
+    Anfragen, Entwicklung, Kuration
+    false
+    Design, Transition, Operation
+    true
+
+Welches ist keine Service-Management-Art?
+    Problem-Management
+    false
+    Change-Management
+    false
+    Live-Chat-Management
+    true
+    Service-Availability-Management
+    false
+
+Welche Elemente werden in Kunden-Datenbanken im Release/Configuration-Management verwaltet und gepflegt?
+    Hardwarekomponenten
+    true
+    Softwarekomponenten
+    true
+    Servicekomponenten
+    true
+
+Welches ist der derzeitige ITIL Standard?
+    ITIL 4
+    true
+    ITIL 5
+    false
+    ITIL 6
+    false
+}

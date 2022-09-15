@@ -1,5 +1,5 @@
 {
-"questions":[
+"simpleQuestions":[
     {
         "question":"Welche Phase des ITIL Lebenszyklusses beinhaltet die Planung von Verfügbarkeiten?",
         "answers": [
@@ -104,6 +104,84 @@
                 "value":false
             }
         ]
+    },
+
+    {
+        "question":"Wie ist der Service-Lebenszyklus ausgerichtet?",
+        "answers": [
+            {
+                "answer":"Design, Operation, Publikation",
+                "value":false
+            },
+            {
+                "answer":"Anfragen, Entwicklung, Kuration",
+                "value":false
+            },
+            {
+                "answer":"Design, Transition, Operation",
+                "value":true
+            }
+        ]
+    },
+    {
+        "question":"Welches ist keine Service-Management-Art?",
+        "answers": [
+            {
+                "answer":"Problem-Management",
+                "value":false
+            },
+            {
+                "answer":"Change-Management",
+                "value":false
+            },
+            {
+                "answer":"Live-Chat-Management",
+                "value":true
+            },
+            {
+                "answer":"Service-Availability-Management",
+                "value":false
+            }
+        ]
+    },
+    {
+        "question":"Welche Elemente werden in Kunden-Datenbanken im Release/Configuration-Management verwaltet und gepflegt?",
+        "answers": [
+            {
+                "answer":"Hardwarekomponenten",
+                "value":true
+            },
+            {
+                "answer":"Softwarekomponenten",
+                "value":true
+            },
+            {
+                "answer":"Servicekomponenten",
+                "value":true
+            }
+        ]
+    },
+    {
+        "question":"Welches ist der derzeitige ITIL Standard?",
+        "answers": [
+            {
+                "answer":"ITIL 3",
+                "value":false
+            },
+            {
+                "answer":"ITIL 4",
+                "value":true
+            },
+            {
+                "answer":"ITIL 5",
+                "value":false
+            },
+            {
+                "answer":"ITIL 6",
+                "value":false
+            }
+        ]
     }
+
 ]
 }

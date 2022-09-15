@@ -1,0 +1,30 @@
+
+.answers--wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer {
+    flex: 1;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 3px 0px;
+}
+
+.answer:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.answer--correct {
+    background: #86ff49;
+}
+
+.answer--wrong {
+    background: #ff4949;
+}
