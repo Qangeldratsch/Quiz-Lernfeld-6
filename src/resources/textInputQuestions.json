@@ -2,9 +2,12 @@
     "textInputQuestions":
     [
         {
-            "question":"Was ist 1+1?",
-            "answer":"2"
+            "question":"Wofür steht ITIL?",
+            "answer":"Information Technology Infrastructure Library"
+        },
+        {
+            "question":"Welche Möglichkeiten wurden geschaffen, um einen Austausch und übergreifende Funktionalität im Bereich IT-Service zu gewährleisten?
+            "answer":"Frameworks,Normen und Zertifikate"
         }
-
     ]
 }
