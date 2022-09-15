@@ -104,8 +104,28 @@
                 "value":false
             }
         ]
+   },
+   {
+        "question":"Wofür steht COBIT?",
+        "answers": [
+            {
+                "answer":"Control Objectives for Information Technology",
+                "value":false
+            },
+            {
+                "answer":"Continuous Organization By Integrated Testing",
+                "value":false
+            },
+            {
+                "answer":"Control Objectives for Information and related Technology",
+                "value":true
+            },
+            {
+                "answer":"Codependent Obsticles for Information Technology",
+                "value":false
+            }
+        ]
     },
-
     {
         "question":"Wie ist der Service-Lebenszyklus ausgerichtet?",
         "answers": [
