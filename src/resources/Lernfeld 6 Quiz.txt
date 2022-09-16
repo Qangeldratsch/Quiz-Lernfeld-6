@@ -1,5 +1,5 @@
 
-Welche Phase des ITIL Lebenszyklusses beinhaltet die Planung von Verfügbarkeiten?
+Welche Phase des ITIL Lebenszyklusses beinhaltet die Planung von VerfÃ¼gbarkeiten?
     - Continual Service Improvement 
     - Operation 
     - Transition 
@@ -16,7 +16,7 @@ Welcher Framework hat den Fokues auf IT- Unternehmensmanagement und IT- Governan
     - FitSM 
     - SIAM 
 
-Welches ist das weltweit meist berücksichtigte Framework im Bezug auf IT- Service?
+Welches ist das weltweit meist berÃ¼cksichtigte Framework im Bezug auf IT- Service?
     - ITIL (richtig)
     - COBIT 
     - FitSM 
@@ -28,7 +28,7 @@ Wie viele Managementpraktiken bietet der ITIL Framework?
     - 34 (richtig)
     - 28 
 
-Wofür steht COBIT?
+WofÃ¼r steht COBIT?
     - Control Objectives for Information Technology 
     - Continuous Organization By Integrated Testing 
     - Control Objectives for Information and related Technology (richtig)
@@ -56,20 +56,20 @@ Welches ist der derzeitige ITIL Standard?
     - ITIL 5 
     - ITIL 6 
 
-Wähle den Standard für das Qualitätsmanagement aus.
+WÃ¤hle den Standard fÃ¼r das QualitÃ¤tsmanagement aus.
     - ISO 20000 
     - ISO 15504 
     - ISO 27000 
     - ISO 9000 (richtig)
 
-Wähle den Standard für Informationssicherheit aus.
+WÃ¤hle den Standard fÃ¼r Informationssicherheit aus.
     - ITIL 
     - ISO 27000 (richtig)
     - ISO 15504 
     - COBIT 
     - ISO 9000 
 
-Wähle die Standards/Frameworks für IT-Service-Management aus.
+WÃ¤hle die Standards/Frameworks fÃ¼r IT-Service-Management aus.
     - FitSM (richtig)
     - ISO 20000 (richtig)
     - ISO 15504 
@@ -77,25 +77,25 @@ Wähle die Standards/Frameworks für IT-Service-Management aus.
     - ITIL (richtig)
     - CMMI 
 
-Wähle die Reifegradmodelle aus dem Software Engineering aus.
+WÃ¤hle die Reifegradmodelle aus dem Software Engineering aus.
     - ISO 27000 
     - FitSM 
     - COBIT 
     - CMMI (richtig)
     - ISO 15504 (richtig)
 
-Welche Aussage über CC BY und CC-BY-NC ist korrekt?
+Welche Aussage Ã¼ber CC BY und CC-BY-NC ist korrekt?
     - CC BY-NC erlaubt kommerzielle Nutzung. ( false)
     - Bei CC BY-NC muss der Name des Autors nicht genannt werden. ( false)
     - CC BY erlaubt kommerzielle Nutzung. ( true)
-    - CC BY verbietet jegliche Nutzung und Verbreitung des ürsprünglichem Werk. ( false)
+    - CC BY verbietet jegliche Nutzung und Verbreitung des Ã¼rsprÃ¼nglichem Werk. ( false)
 
-Was passiert, wenn man eine Software mit GNU-Rechten verändert?
+Was passiert, wenn man eine Software mit GNU-Rechten verÃ¤ndert?
     - Die GNU-Rechte, die zuvor existierte, werden weiterhin erhalten. ( true)
     - Alle GNU-Rechte entfallen, da nun eine neue Version der Software erschaffen wurde. ( false)
-    - Software mit GNU-Rechten darf grundsätzlich nicht verändert werden. ( false)
+    - Software mit GNU-Rechten darf grundsÃ¤tzlich nicht verÃ¤ndert werden. ( false)
 
-Welches der folgenden Begriffe ist zuständig für IT-Sicherheit oder Datenschutz?
+Welches der folgenden Begriffe ist zustÃ¤ndig fÃ¼r IT-Sicherheit oder Datenschutz?
     - IT-SiG (richtig)
     - ITIL 
     - DSGVO (richtig)
@@ -103,16 +103,16 @@ Welches der folgenden Begriffe ist zuständig für IT-Sicherheit oder Datenschutz?
     - COBIT 
 
 
-Wofür steht ITIL?
+WofÃ¼r steht ITIL?
     - Information Technology Infrastructure Library
 
-Welche Möglichkeiten wurden geschaffen, um einen Austausch und übergreifende Funktionalität im Bereich IT-Service zu gewährleisten?
+Welche MÃ¶glichkeiten wurden geschaffen, um einen Austausch und Ã¼bergreifende FunktionalitÃ¤t im Bereich IT-Service zu gewÃ¤hrleisten?
     - Frameworks,Normen und Zertifikate
 
-Nenne Beispiele für Werke, die durch das Urheberrecht geschützt sind.
+Nenne Beispiele fÃ¼r Werke, die durch das Urheberrecht geschÃ¼tzt sind.
     - Zum Beispiel: Lichtbildwerke, Darstellungen, Sprach- und Schriftwerke oder Computerprogramme
 
-Was sind Lizenzen? Wofür werden sie genutzt?
-    - Lizenzen sind Erlaubnisse für die Nutzung und Verbreitung eines Werkes.
+Was sind Lizenzen? WofÃ¼r werden sie genutzt?
+    - Lizenzen sind Erlaubnisse fÃ¼r die Nutzung und Verbreitung eines Werkes.
 
 
