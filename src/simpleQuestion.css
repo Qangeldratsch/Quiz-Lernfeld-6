@@ -25,6 +25,10 @@
     background: #86ff49;
 }
 
+.answer--correct-correct {
+    border: 2px solid #86ff49;
+}
+
 .answer--wrong {
     background: #ff4949;
 }

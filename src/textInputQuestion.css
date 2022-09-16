@@ -21,10 +21,8 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.answer--correct {
-    background: #86ff49;
+input[type=text] {
+    width: 100%;
+    padding-left: 0;
 }
 
-.answer--wrong {
-    background: #ff4949;
-}

@@ -201,6 +201,106 @@
                 "value":false
             }
         ]
+    },
+    {
+        "question":"Wähle den Standard für das Qualitätsmanagement aus.",
+        "answers": [
+            {
+                "answer":"ISO 20000",
+                "value":false
+            },
+            {
+                "answer":"ISO 15504",
+                "value":false
+            },
+            {
+                "answer":"ISO 27000",
+                "value":false
+            },
+            {
+                "answer":"ISO 9000",
+                "value":true
+            }
+        ]
+    },
+    {
+        "question":"Wähle den Standard für Informationssicherheit aus.",
+        "answers": [
+            {
+                "answer":"ITIL",
+                "value":false
+            },
+            {
+                "answer":"ISO 27000",
+                "value":true
+            },
+            {
+                "answer":"ISO 15504",
+                "value":false
+            },
+            {
+                "answer":"COBIT",
+                "value":false
+            },
+            {
+                "answer":"ISO 9000",
+                "value":false
+            }
+        ]
+    },
+    {
+        "question":"Wähle die Standards/Frameworks für IT-Service-Management aus.",
+        "answers": [
+            {
+                "answer":"FitSM",
+                "value":true
+            },
+            {
+                "answer":"ISO ISO 20000",
+                "value":true
+            },
+            {
+                "answer":"ISO 15504",
+                "value":false
+            },
+            {
+                "answer":"COBIT",
+                "value":true
+            },
+            {
+                "answer":"ITIL",
+                "value":true
+            },
+            {
+                "answer":"CMMI",
+                "value":false
+            }
+        ]
+    },
+    {
+        "question": "Wähle die Reifegradmodelle aus dem Software Engineering aus.",
+        "answers": [
+            {
+                "answer": "ISO 27000",
+                "value": false
+            },
+            {
+                "answer": "FitSM",
+                "value": false
+            },
+            {
+                "answer": "COBIT",
+                "value": false
+            },
+            {
+                "answer": "CMMI",
+                "value": true
+            },
+            {
+                "answer": "ISO 15504",
+                "value": true
+            }
+        ]
     }
 
 ]

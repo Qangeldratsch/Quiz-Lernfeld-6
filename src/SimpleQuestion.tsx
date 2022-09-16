@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './simpleQuestion.css'
+import { Buttons } from "./Buttons";
 
 export const SimpleQuestion = (props:any) => {
 
@@ -16,6 +17,9 @@ export const SimpleQuestion = (props:any) => {
         });
         Array.from(document.getElementsByClassName("answer--wrong")).map((element: any) => {
             element.classList.remove("answer--wrong");
+        });
+        Array.from(document.getElementsByClassName("answer--correct-correct")).map((element: any) => {
+            element.classList.remove("answer--correct-correct");
         });
     }
 
@@ -43,15 +47,25 @@ export const SimpleQuestion = (props:any) => {
                         .classList.add("answer--wrong");
                 }
             }
+            // highlight the correct answers
+            else {
+                if (props.answers[answer.id].value) {
+                    // @ts-ignore
+                    document.getElementById("answer-" + id)
+                        .classList.add("answer--correct-correct");
+                }
+            }
         });
     }
 
-
     if (props.answers instanceof Array) {
         answers = props.answers.map((answer: any, index: number) => {
-
                 return (
-                    <div className="answer" id={"answer-" + index.toString()}>
+                    <div
+                        className="answer"
+                        id={"answer-" + index.toString()}
+                        onClick={() => handleOnChange(index)}
+                    >
                         <label htmlFor={index.toString()}>
                             {answer.answer}
                         </label>
@@ -73,28 +87,16 @@ export const SimpleQuestion = (props:any) => {
         <div className="question--wrapper">
             <p className="question--question">{props.question}</p>
             <div className="answers--wrapper">
-                <div
-                    className="answers"
-                >
+                <div className="answers">
                     {answers}
                 </div>
             </div>
 
-            <button
-                onClick={() => checkAnswers()}
-            >
-                Antworten überprüfen
-            </button>
-            <button
-                onClick={
-                    () => {
-                        props.setCurrentQuestion(((prevState: number) => prevState + 1));
-                        resetStates();
-                    }
-                }
-            >
-                Nächste Frage
-            </button>
+            <Buttons
+                checkAnswers={checkAnswers}
+                resetStates={resetStates}
+                setCurrentQuestion={props.setCurrentQuestion}
+            />
         </div>
     );
 }
