@@ -4,6 +4,7 @@ import {Buttons} from "./Buttons";
 
 export const TextInputQuestion = (props:any) => {
 
+    const [nextQuestionsVisible, setNextQuestionsVisible] = useState(false);
     const [showAnswer, setShowAnswer] = useState(false);
 
     const checkAnswers = () => {
@@ -50,6 +51,8 @@ export const TextInputQuestion = (props:any) => {
                 checkAnswers={checkAnswers}
                 resetStates={resetStates}
                 setCurrentQuestion={props.setCurrentQuestion}
+                nextQuestionsVisible={nextQuestionsVisible}
+                setNextQuestionsVisible={setNextQuestionsVisible}
             />
 
         </div>

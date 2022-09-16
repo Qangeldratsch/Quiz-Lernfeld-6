@@ -8,6 +8,14 @@
         {
             "question":"Welche Möglichkeiten wurden geschaffen, um einen Austausch und übergreifende Funktionalität im Bereich IT-Service zu gewährleisten?",
             "answer":"Frameworks,Normen und Zertifikate"
+        },
+        {
+            "question":"Nenne Beispiele für Werke, die durch das Urheberrecht geschützt sind.",
+            "answer":"Zum Beispiel: Lichtbildwerke, Darstellungen, Sprach- und Schriftwerke oder Computerprogramme"
+        },
+        {
+            "question":"Was sind Lizenzen? Wofür werden sie genutzt?",
+            "answer":"Lizenzen sind Erlaubnisse für die Nutzung und Verbreitung eines Werkes."
         }
     ]
 }

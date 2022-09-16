@@ -4,6 +4,7 @@ import { Buttons } from "./Buttons";
 
 export const SimpleQuestion = (props:any) => {
 
+    const [nextQuestionsVisible, setNextQuestionsVisible] = useState(false);
     const [checked, setChecked] = useState(
         new Array(props.answers.length).fill(false)
     );
@@ -41,10 +42,16 @@ export const SimpleQuestion = (props:any) => {
                     // @ts-ignore
                     document.getElementById("answer-" + id)
                         .classList.add("answer--correct");
+                    if (!nextQuestionsVisible) {
+                        props.setPoints(((prevState: number) => prevState + 1));
+                    }
                 } else {
                     // @ts-ignore
                     document.getElementById("answer-" + id)
                         .classList.add("answer--wrong");
+                    if (!nextQuestionsVisible) {
+                        props.setPoints(((prevState: number) => prevState - 1));
+                    }
                 }
             }
             // highlight the correct answers
@@ -96,6 +103,8 @@ export const SimpleQuestion = (props:any) => {
                 checkAnswers={checkAnswers}
                 resetStates={resetStates}
                 setCurrentQuestion={props.setCurrentQuestion}
+                nextQuestionsVisible={nextQuestionsVisible}
+                setNextQuestionsVisible={setNextQuestionsVisible}
             />
         </div>
     );

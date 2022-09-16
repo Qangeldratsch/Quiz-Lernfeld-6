@@ -14,10 +14,6 @@
             {
                 "answer":"Transition",
                 "value":false
-            },
-            {
-                "answer":"Design",
-                "value":true
             }
         ]
     },
@@ -256,7 +252,7 @@
                 "value":true
             },
             {
-                "answer":"ISO ISO 20000",
+                "answer":"ISO 20000",
                 "value":true
             },
             {
@@ -299,6 +295,70 @@
             {
                 "answer": "ISO 15504",
                 "value": true
+            }
+        ]
+    },
+
+    {
+        "question": "Welche Aussage über CC BY und CC-BY-NC ist korrekt?",
+        "answers": [
+            {
+                "answer": "CC BY-NC erlaubt kommerzielle Nutzung.",
+                "value": false
+            },
+            {
+                "answer": "Bei CC BY-NC muss der Name des Autors nicht genannt werden.",
+                "value": false
+            },
+            {
+                "answer": "CC BY erlaubt kommerzielle Nutzung.",
+                "value": true
+            },
+            {
+                "answer": "CC BY verbietet jegliche Nutzung und Verbreitung des ürsprünglichem Werk.",
+                "value": false
+            }
+        ]
+    },
+    {
+        "question": "Was passiert, wenn man eine Software mit GNU-Rechten verändert?",
+        "answers": [
+            {
+                "answer": "Die GNU-Rechte, die zuvor existierte, werden weiterhin erhalten.",
+                "value": true
+            },
+            {
+                "answer": "Alle GNU-Rechte entfallen, da nun eine neue Version der Software erschaffen wurde.",
+                "value": false
+            },
+            {
+                "answer": "Software mit GNU-Rechten darf grundsätzlich nicht verändert werden.",
+                "value": false
+            }
+        ]
+    },
+    {
+        "question": "Welches der folgenden Begriffe ist zuständig für IT-Sicherheit oder Datenschutz?",
+        "answers": [
+            {
+                "answer": "IT-SiG",
+                "value": true
+            },
+            {
+                "answer": "ITIL",
+                "value": false
+            },
+            {
+                "answer": "DSGVO",
+                "value": true
+            },
+            {
+                "answer": "BDSG-neu",
+                "value": true
+            },
+            {
+                "answer": "COBIT",
+                "value": false
             }
         ]
     }

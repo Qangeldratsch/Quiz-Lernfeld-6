@@ -5,20 +5,26 @@ export const Buttons = (props:any) => {
     return (
         <div className="button--wrapper">
             <button
-                onClick={() => {props.checkAnswers()}}
+                onClick={() => {
+                    props.checkAnswers();
+                    props.setNextQuestionsVisible(true);
+                }}
             >
                 Antwort überprüfen
             </button>
-            <button
-                onClick={
-                    () => {
-                        props.setCurrentQuestion(((prevState: number) => prevState + 1));
-                        props.resetStates();
+            {props.nextQuestionsVisible &&
+                <button
+                    onClick={
+                        () => {
+                            props.setCurrentQuestion(((prevState: number) => prevState + 1));
+                            props.resetStates();
+                            props.setNextQuestionsVisible(false);
+                        }
                     }
-                }
-            >
-                Nächste Frage
-            </button>
+                >
+                    Nächste Frage
+                </button>
+            }
         </div>
     );
 }
