@@ -32,3 +32,17 @@
 .answer--wrong {
     background: #ff4949;
 }
+
+.answer--input {
+    height: 16px;
+    width:16px;
+    
+    margin-right: 15px;
+}
+
+.answer input {
+    border: 3px;
+}
+.answer label {
+    font-size: 18px;
+}

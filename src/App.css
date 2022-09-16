@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin:20px;
 }
 
 .App-logo {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+div.questions {
+  background-color: rgb(243, 243, 243);
+  border-radius:20px;
 }
