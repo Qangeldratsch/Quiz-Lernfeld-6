@@ -2,6 +2,8 @@
 .answers--wrapper {
     display: flex;
     flex-direction: column;
+    margin-left:40px;
+    margin-right:40px;
 }
 
 .answers {
@@ -11,7 +13,7 @@
 
 .answer {
     flex: 1;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 5px;
     margin: 3px 0px;
 }
@@ -30,7 +32,4 @@ input[type=text] {
     border-radius: 3px;
 }
 
-button {
-    color: blue;
-}
 
