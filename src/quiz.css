@@ -21,6 +21,7 @@
     padding: 8px;
     margin-top:20px;
     font-size:x-large;
+    word-break: break-word;
 }
 
 button {
@@ -40,4 +41,5 @@ button:hover {
 .stats {
     display: flex;
     justify-content: space-between;
+    margin-block: 20px;
 }

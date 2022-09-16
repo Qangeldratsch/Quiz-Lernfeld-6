@@ -1,228 +1,118 @@
 
-q macro
-/^{\nddd2f"A€kb€kbjkjccjk/^    ]\nddddk@q
-a macro
-/        {\nddd2f"A€kb€kbjkjBdf:jddk@a
+Welche Phase des ITIL Lebenszyklusses beinhaltet die Planung von Verfügbarkeiten?
+    - Continual Service Improvement 
+    - Operation 
+    - Transition 
+
+Welche ISO Norm behandelt Vorgaben im Bezug auf die Prozessbewertung?
+    - ISO/ICE 27000 
+    - ISO 15504 (richtig)
+    - ISO/ICE 20000 
+    - ISO 9000 
+
+Welcher Framework hat den Fokues auf IT- Unternehmensmanagement und IT- Governance?
+    - ITIL 
+    - COBIT (richtig)
+    - FitSM 
+    - SIAM 
+
+Welches ist das weltweit meist berücksichtigte Framework im Bezug auf IT- Service?
+    - ITIL (richtig)
+    - COBIT 
+    - FitSM 
+    - SIAM 
+
+Wie viele Managementpraktiken bietet der ITIL Framework?
+    - 17 
+    - 14 
+    - 34 (richtig)
+    - 28 
+
+Wofür steht COBIT?
+    - Control Objectives for Information Technology 
+    - Continuous Organization By Integrated Testing 
+    - Control Objectives for Information and related Technology (richtig)
+    - Codependent Obsticles for Information Technology 
+
+Wie ist der Service-Lebenszyklus ausgerichtet?
+    - Design, Operation, Publikation 
+    - Anfragen, Entwicklung, Kuration 
+    - Design, Transition, Operation (richtig)
+
+Welches ist keine Service-Management-Art?
+    - Problem-Management 
+    - Change-Management 
+    - Live-Chat-Management (richtig)
+    - Service-Availability-Management 
+
+Welche Elemente werden in Kunden-Datenbanken im Release/Configuration-Management verwaltet und gepflegt?
+    - Hardwarekomponenten (richtig)
+    - Softwarekomponenten (richtig)
+    - Servicekomponenten (richtig)
+
+Welches ist der derzeitige ITIL Standard?
+    - ITIL 3 
+    - ITIL 4 (richtig)
+    - ITIL 5 
+    - ITIL 6 
+
+Wähle den Standard für das Qualitätsmanagement aus.
+    - ISO 20000 
+    - ISO 15504 
+    - ISO 27000 
+    - ISO 9000 (richtig)
+
+Wähle den Standard für Informationssicherheit aus.
+    - ITIL 
+    - ISO 27000 (richtig)
+    - ISO 15504 
+    - COBIT 
+    - ISO 9000 
+
+Wähle die Standards/Frameworks für IT-Service-Management aus.
+    - FitSM (richtig)
+    - ISO 20000 (richtig)
+    - ISO 15504 
+    - COBIT (richtig)
+    - ITIL (richtig)
+    - CMMI 
+
+Wähle die Reifegradmodelle aus dem Software Engineering aus.
+    - ISO 27000 
+    - FitSM 
+    - COBIT 
+    - CMMI (richtig)
+    - ISO 15504 (richtig)
+
+Welche Aussage über CC BY und CC-BY-NC ist korrekt?
+    - CC BY-NC erlaubt kommerzielle Nutzung. ( false)
+    - Bei CC BY-NC muss der Name des Autors nicht genannt werden. ( false)
+    - CC BY erlaubt kommerzielle Nutzung. ( true)
+    - CC BY verbietet jegliche Nutzung und Verbreitung des ürsprünglichem Werk. ( false)
+
+Was passiert, wenn man eine Software mit GNU-Rechten verändert?
+    - Die GNU-Rechte, die zuvor existierte, werden weiterhin erhalten. ( true)
+    - Alle GNU-Rechte entfallen, da nun eine neue Version der Software erschaffen wurde. ( false)
+    - Software mit GNU-Rechten darf grundsätzlich nicht verändert werden. ( false)
+
+Welches der folgenden Begriffe ist zuständig für IT-Sicherheit oder Datenschutz?
+    - IT-SiG (richtig)
+    - ITIL 
+    - DSGVO (richtig)
+    - BDSG-neu (richtig)
+    - COBIT 
 
 
-    Welche Phase des ITIL Lebenszyklusses beinhaltet die Planung von Verfügbarkeiten?
+Wofür steht ITIL?
+    - Information Technology Infrastructure Library
 
-            Continual Service Improvement
-            false
-            Operation
-            false
-            Transition
-            false
-{
-    "question":"Welche ISO Norm behandelt Vorgaben im Bezug auf die Prozessbewertung?",
-    "answers": [
-            ISO/ICE 27000
-            false
-            ISO 15504
-            true
-            ISO/ICE 20000
-            false
-            ISO 9000
-            false
-    ]
-},
-{
-    "question":"Welcher Framework hat den Fokues auf IT- Unternehmensmanagement und IT- Governance?",
-    "answers": [
-            ITIL
-            false
-            COBIT
-            true
-            FitSM
-            false
-            SIAM
-            false
-    ]
-},
-{
-    "question":"Welches ist das weltweit meist berücksichtigte Framework im Bezug auf IT- Service?",
-    "answers": [
-            ITIL
-            true
-            COBIT
-            false
-            FitSM
-            false
-            SIAM
-            false
-    ]
-},
-{
-    "question":"Wie viele Managementpraktiken bietet der ITIL Framework?",
-    "answers": [
-            17
-            false
-            14
-            false
-            34
-            true
-            28
-            false
-    ]
-},
-{
-    "question":"Wofür steht COBIT?",
-    "answers": [
-            Control Objectives for Information Technology
-            false
-            Continuous Organization By Integrated Testing
-            false
-            Control Objectives for Information and related Technology
-            true
-            Codependent Obsticles for Information Technology
-            false
-    ]
-},
-{
-    "question":"Wie ist der Service-Lebenszyklus ausgerichtet?",
-    "answers": [
-            Design, Operation, Publikation
-            false
-            Anfragen, Entwicklung, Kuration
-            false
-            Design, Transition, Operation
-            true
-    ]
-},
-{
-    "question":"Welches ist keine Service-Management-Art?",
-    "answers": [
-            Problem-Management
-            false
-            Change-Management
-            false
-            Live-Chat-Management
-            true
-            Service-Availability-Management
-            false
-    ]
-},
-{
-    "question":"Welche Elemente werden in Kunden-Datenbanken im Release/Configuration-Management verwaltet und gepflegt?",
-    "answers": [
-            Hardwarekomponenten
-            true
-            Softwarekomponenten
-            true
-            Servicekomponenten
-            true
-    ]
-},
-{
-    "question":"Welches ist der derzeitige ITIL Standard?",
-    "answers": [
-            ITIL 3
-            false
-            ITIL 4
-            true
-            ITIL 5
-            false
-            ITIL 6
-            false
-    ]
-},
-{
-    "question":"Wähle den Standard für das Qualitätsmanagement aus.",
-    "answers": [
-            ISO 20000
-            false
-            ISO 15504
-            false
-            ISO 27000
-            false
-            ISO 9000
-            true
-    ]
-},
-{
-    "question":"Wähle den Standard für Informationssicherheit aus.",
-    "answers": [
-            ITIL
-            false
-            ISO 27000
-            true
-            ISO 15504
-            false
-            COBIT
-            false
-            ISO 9000
-            false
-    ]
-},
-{
-    "question":"Wähle die Standards/Frameworks für IT-Service-Management aus.",
-    "answers": [
-            FitSM
-            true
-            ISO 20000
-            true
-            ISO 15504
-            false
-            COBIT
-            true
-            ITIL
-            true
-            CMMI
-            false
-    ]
-},
-{
-    "question":"Wähle die Reifegradmodelle aus dem Software Engineering aus.",
-    "answers": [
-            ISO 27000
-            false
-            FitSM
-            false
-            COBIT
-            false
-            CMMI
-            true
-            ISO 15504
-            true
-    ]
-},
+Welche Möglichkeiten wurden geschaffen, um einen Austausch und übergreifende Funktionalität im Bereich IT-Service zu gewährleisten?
+    - Frameworks,Normen und Zertifikate
 
-{
-    "question":"Welche Aussage über CC BY und CC-BY-NC ist korrekt?",
-    "answers": [
-            CC BY-NC erlaubt kommerzielle Nutzung.
-            false
-            Bei CC BY-NC muss der Name des Autors nicht genannt werden.
-            false
-            CC BY erlaubt kommerzielle Nutzung.
-            true
-            CC BY verbietet jegliche Nutzung und Verbreitung des ürsprünglichem Werk.
-            false
-    ]
-},
-{
-    "question":"Was passiert, wenn man eine Software mit GNU-Rechten verändert?",
-    "answers": [
-            Die GNU-Rechte, die zuvor existierte, werden weiterhin erhalten.
-            true
-            Alle GNU-Rechte entfallen, da nun eine neue Version der Software erschaffen wurde.
-            false
-            Software mit GNU-Rechten darf grundsätzlich nicht verändert werden.
-            false
-    ]
-},
-{
-    "question":"Welches der folgenden Begriffe ist zuständig für IT-Sicherheit oder Datenschutz?",
-    "answers": [
-            IT-SiG
-            true
-            ITIL
-            false
-            DSGVO
-            true
-            BDSG-neu
-            true
-            COBIT
-            false
-    ]
-}
+Nenne Beispiele für Werke, die durch das Urheberrecht geschützt sind.
+    - Zum Beispiel: Lichtbildwerke, Darstellungen, Sprach- und Schriftwerke oder Computerprogramme
+
+Was sind Lizenzen? Wofür werden sie genutzt?
+    - Lizenzen sind Erlaubnisse für die Nutzung und Verbreitung eines Werkes.
+
+
