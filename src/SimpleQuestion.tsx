@@ -73,7 +73,7 @@ export const SimpleQuestion = (props:any) => {
                         id={"answer-" + index.toString()}
                         onClick={() => handleOnChange(index)}
                     >
-                        <input
+                            <input
                             id={index.toString()}
                             className="answer--input"
                             value="id"
@@ -81,7 +81,9 @@ export const SimpleQuestion = (props:any) => {
                             checked={checked[index]}
                             onChange={() => handleOnChange(index)}
                         />
-                        <label htmlFor={index.toString()}>
+                        <label
+                            onClick={() => handleOnChange(index)}
+                        >
                             {answer.answer}
                         </label>
                     </div>
