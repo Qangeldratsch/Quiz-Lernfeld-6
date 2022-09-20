@@ -3,6 +3,7 @@ Welche Phase des ITIL Lebenszyklusses beinhaltet die Planung von Verfügbarkeite
     - Continual Service Improvement 
     - Operation 
     - Transition 
+    - Design (richtig) 
 
 Welche ISO Norm behandelt Vorgaben im Bezug auf die Prozessbewertung?
     - ISO/ICE 27000 
